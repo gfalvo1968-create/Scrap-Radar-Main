@@ -1,1 +1,18 @@
+<div class="box">
+    <h2>Chip Board Calculator</h2>
 
+    <div class="row">
+        <select id="chipType">
+            <option value="3.00">High Grade ($3/lb)</option>
+            <option value="1.50">Mid Grade ($1.50/lb)</option>
+            <option value="0.50">Low Grade ($0.50/lb)</option>
+        </select>
+
+        <input id="chipWeight" placeholder="Weight (lbs)">
+        <input id="chipCost" placeholder="Your cost/lb">
+
+        <button onclick="calcChips()">Calculate Chips</button>
+    </div>
+
+    <div id="chipResult"></div>
+</div>
